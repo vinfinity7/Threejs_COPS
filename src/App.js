@@ -16,10 +16,10 @@ class App extends Component {
       <div id="body">
         <h1 text-align="centre">
 
-<div class="glitch" data-text="GLITCH">GLITCH</div>
+<div background-color= "transparent" class="glitch" data-text="GLITCH">GLITCH</div>
         
         </h1>
-        <br/><br/><br/><br/><br/><br/>
+        <br/>
         <div className="container carousel-wrapper">
           <Carousel autoPlay={true} showThumbs={false} infiniteLoop={true}>
             <div>
@@ -37,7 +37,7 @@ class App extends Component {
               />
             </div>
             <div>
-              <ThreeScene modelPath="model5/scene.gltf" camx={0} camy={1} camz={1} />
+              <ThreeScene modelPath="model5/scene.gltf" camx={0} camy={2} camz={3} />
               <SlideCard
                 title="Slide Card 3"
                 text="Some quick example text to build on the card title and make up the bulk of the card's content."

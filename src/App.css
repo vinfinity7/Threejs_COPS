@@ -14,12 +14,12 @@ h1
 #body
 {
     background-color:black;
+    height:747.20px;
 }
 #3d
 {
     display: flex;
   justify-content: center;
   align-items: center;
-  height: 400px;
 }
 

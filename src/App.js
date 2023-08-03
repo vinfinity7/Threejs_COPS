@@ -15,28 +15,36 @@ class App extends Component {
         <div className="container carousel-wrapper">
           <Carousel autoPlay={true} showThumbs={false} infiniteLoop={true}>
             <div>
-              <ThreeScene modelPath="model1/scene.gltf" />
+              <div id="3d">
+                <ThreeScene modelPath="model1/scene.gltf" />
+              </div>
               <SlideCard
                 title="Slide Card 1"
                 text="Some quick example text to build on the card title and make up the bulk of the card's content."
               />
             </div>
             <div>
-              <ThreeScene modelPath="model4/scene.gltf" />
+              <div id="3d">
+                <ThreeScene modelPath="model4/scene.gltf" />
+              </div>
               <SlideCard
                 title="Slide Card 2"
                 text="Some quick example text to build on the card title and make up the bulk of the card's content."
               />
             </div>
             <div>
-              <ThreeScene modelPath="model5/scene.gltf" />
+              <div id="3d">
+                <ThreeScene modelPath="model5/scene.gltf" />
+              </div>
               <SlideCard
                 title="Slide Card 3"
                 text="Some quick example text to build on the card title and make up the bulk of the card's content."
               />
             </div>
             <div>
-              <ThreeScene modelPath="model/scene.gltf" />
+              <div id="3d">
+                <ThreeScene modelPath="model/scene.gltf" />
+              </div>
               <SlideCard
                 title="Slide Card 4"
                 text="Some quick example text to build on the card title and make up the bulk of the card's content."

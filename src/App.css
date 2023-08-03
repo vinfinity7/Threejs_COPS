@@ -15,4 +15,11 @@ h1
 {
     background-color:black;
 }
+#3d
+{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+}
 

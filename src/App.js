@@ -14,12 +14,8 @@ class App extends Component {
   render() {
     return (
       <div id="body">
-
-
         <h1 text-align="centre">
-
 <div background-color= "transparent" class="glitch" data-text="GLITCH">COPS</div>
-        
         </h1>
         <br/>
         <div className="container carousel-wrapper">
@@ -27,28 +23,28 @@ class App extends Component {
             <div>
               <ThreeScene modelPath="model1/scene.gltf" camx={0} camy={5} camz={50}  />
               <SlideCard
-                title="Slide Card 1"
+                title="Competitive Programming"
                 text="Some quick example text to build on the card title and make up the bulk of the card's content."
               />
             </div>
             <div>
-              <ThreeScene modelPath="model4/scene.gltf" camx={0} camy={100} camz={300} />
+              <ThreeScene modelPath="brain/scene.gltf" camx={3.5} camy={5} camz={0} />
               <SlideCard
-                title="Slide Card 2"
+                title="Intelligence Group"
                 text="Some quick example text to build on the card title and make up the bulk of the card's content."
               />
             </div>
             <div>
-              <ThreeScene modelPath="model5/scene.gltf" camx={0} camy={2} camz={3} />
+              <ThreeScene modelPath="react/scene.gltf" camx={0} camy={0} camz={4} />
               <SlideCard
-                title="Slide Card 3"
+                title="Software Development Guild"
                 text="Some quick example text to build on the card title and make up the bulk of the card's content."
               />
             </div>
             <div>
-              <ThreeScene modelPath="model/scene.gltf" camx={0} camy={1} camz={10} />
+              <ThreeScene modelPath="InfoSec/scene.gltf" camx={5} camy={1} camz={1} />
               <SlideCard
-                title="Slide Card 4"
+                title="Information Security"
                 text="Some quick example text to build on the card title and make up the bulk of the card's content."
               />
             </div>

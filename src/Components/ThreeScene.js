@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import * as THREE from "three";
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+import '@fontsource/eczar'
 // import TWEEN from 'tween.js';
 
 class ThreeScene extends Component {
@@ -16,14 +17,14 @@ class ThreeScene extends Component {
     scene.background = null; // Set scene background to transparent // has the potential to be rendered as loader // obs 1 whilst reading the code base
 
     const camera = new THREE.PerspectiveCamera(
-      75,
+      90,
      (8* window.innerWidth) /(5* window.innerHeight),
       0.1,
       1000
     );
 
     const renderer = new THREE.WebGLRenderer({ alpha: true }); // Enable alpha for transparent background
-    renderer.setSize(window.innerWidth , window.innerHeight );
+    renderer.setSize(window.innerWidth*0.8 , window.innerHeight*0.5 );
     renderer.setClearColor(0x000000, 0); // Set clearColor with alpha value of 0
     this.threeContainer.appendChild(renderer.domElement);
 
@@ -65,10 +66,10 @@ controls.enablePan = false;
 
     controls.update();
 
-    const directionalLight = new THREE.DirectionalLight(0xffffff, 100);
+    const directionalLight = new THREE.DirectionalLight(0xffffff, 300);
     scene.add(directionalLight);
 
-    const ambientLight = new THREE.AmbientLight(0xffffff, 0.5);
+    const ambientLight = new THREE.AmbientLight(0xffffff, 1);
     scene.add(ambientLight);
 
     let rotationAngle = 0;

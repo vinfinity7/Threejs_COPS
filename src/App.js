@@ -14,14 +14,12 @@ class App extends Component {
   render() {
     return (
       <div id="body">
+
+
         <h1 text-align="centre">
-<<<<<<< Updated upstream
-<div background-color= "transparent" class="glitch" data-text="GLITCH">COPS</div>
-=======
 
 <div background-color= "transparent" class="glitch" data-text="COPS">COPS</div>
         
->>>>>>> Stashed changes
         </h1>
         <br/>
         <div className="container carousel-wrapper">
@@ -29,33 +27,34 @@ class App extends Component {
             <div>
               <ThreeScene modelPath="model1/scene.gltf" camx={0} camy={5} camz={50}  />
               <SlideCard
-                title="Competitive Programming"
+                title="Slide Card 1"
                 text="Some quick example text to build on the card title and make up the bulk of the card's content."
               />
             </div>
             <div>
-              <ThreeScene modelPath="brain/scene.gltf" camx={3.5} camy={5} camz={0} />
+              <ThreeScene modelPath="model4/scene.gltf" camx={0} camy={100} camz={300} />
               <SlideCard
-                title="Intelligence Group"
+                title="Slide Card 2"
                 text="Some quick example text to build on the card title and make up the bulk of the card's content."
               />
             </div>
             <div>
-              <ThreeScene modelPath="react/scene.gltf" camx={0} camy={0} camz={4} />
+              <ThreeScene modelPath="model5/scene.gltf" camx={0} camy={2} camz={3} />
               <SlideCard
-                title="Software Development Guild"
+                title="Slide Card 3"
                 text="Some quick example text to build on the card title and make up the bulk of the card's content."
               />
             </div>
             <div>
-              <ThreeScene modelPath="InfoSec/scene.gltf" camx={5} camy={1} camz={1} />
+              <ThreeScene modelPath="model/scene.gltf" camx={0} camy={1} camz={10} />
               <SlideCard
-                title="Information Security"
+                title="Slide Card 4"
                 text="Some quick example text to build on the card title and make up the bulk of the card's content."
               />
             </div>
             
           </Carousel>
+        </div>
         </div>
       </div>
     );

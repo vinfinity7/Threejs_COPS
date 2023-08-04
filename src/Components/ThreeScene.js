@@ -14,7 +14,7 @@ class ThreeScene extends Component {
     // const container = document.getElementById('slider-container');
     const { modelPath ,camx,camy,camz} = this.props;
     const scene = new THREE.Scene();
-    scene.background = null; // Set scene background to transparent // has the potential to be rendered as loader // obs 1 whilst reading the code base
+    scene.background = null; // Set scene background to transparent // has the potential to be rendered as loader //
 
     const camera = new THREE.PerspectiveCamera(
       90,
@@ -51,7 +51,7 @@ class ThreeScene extends Component {
     const controls = new OrbitControls(camera, renderer.domElement);
     
     // to disable zoom
-//controls.enableZoom = false;
+controls.enableZoom = false;
 
 // to disable rotation
 // controls.enableRotate = false;

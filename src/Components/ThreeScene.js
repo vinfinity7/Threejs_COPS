@@ -23,7 +23,7 @@ class ThreeScene extends Component {
     );
 
     const renderer = new THREE.WebGLRenderer({ alpha: true }); // Enable alpha for transparent background
-    renderer.setSize(window.innerWidth * 0.8, window.innerHeight * 0.5);
+    renderer.setSize(window.innerWidth , window.innerHeight );
     renderer.setClearColor(0x000000, 0); // Set clearColor with alpha value of 0
     this.threeContainer.appendChild(renderer.domElement);
 

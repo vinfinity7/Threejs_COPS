@@ -14,23 +14,25 @@ class App extends Component {
   render() {
     return (
       <div id="body">
+
+
         <h1 text-align="centre">
 
-<div background-color= "transparent" class="glitch" data-text="GLITCH">COPS VERTICALS</div>
+<div background-color= "transparent" class="glitch" data-text="GLITCH">COPS</div>
         
         </h1>
         <br/>
         <div className="container carousel-wrapper">
           <Carousel autoPlay={true} showThumbs={false} infiniteLoop={true}>
             <div>
-              <ThreeScene modelPath="model1/scene.gltf" camx={0} camy={1} camz={5}  />
+              <ThreeScene modelPath="model1/scene.gltf" camx={0} camy={5} camz={50}  />
               <SlideCard
                 title="Slide Card 1"
                 text="Some quick example text to build on the card title and make up the bulk of the card's content."
               />
             </div>
             <div>
-              <ThreeScene modelPath="model4/scene.gltf" camx={0} camy={1} camz={3} />
+              <ThreeScene modelPath="model4/scene.gltf" camx={0} camy={100} camz={300} />
               <SlideCard
                 title="Slide Card 2"
                 text="Some quick example text to build on the card title and make up the bulk of the card's content."
@@ -44,7 +46,7 @@ class App extends Component {
               />
             </div>
             <div>
-              <ThreeScene modelPath="model/scene.gltf" camx={0} camy={1} camz={3} />
+              <ThreeScene modelPath="model/scene.gltf" camx={0} camy={1} camz={10} />
               <SlideCard
                 title="Slide Card 4"
                 text="Some quick example text to build on the card title and make up the bulk of the card's content."

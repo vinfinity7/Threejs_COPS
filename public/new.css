@@ -166,4 +166,74 @@ body {
     clip: rect(0, 900px, 0, 0);
     animation: noise-anim-2 3s infinite linear alternate-reverse;
   }
+
+
+
+
+
+
+  // background render try 1
+  
+/* html { */
+  /* height: 100%; */
+  /* background: radial-gradient(ellipse at bottom, #1B2735 0%, #090A0F 100%); */
+  /* overflow: hidden; */
+/* } */
+/* 
+#stars, #stars2, #stars3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1px;
+  height: 1px;
+  background: transparent;
+  animation: animStar 50s linear infinite;
+}
+
+#stars:after, #stars2:after, #stars3:after {
+  content: " ";
+  position: absolute;
+  top: 2000px;
+  width: 1px;
+  height: 1px;
+  background: transparent;
+  animation: animStar 50s linear infinite;
+}
+
+#stars2 {
+  width: 2px;
+  height: 2px;
+  animation: animStar 100s linear infinite;
+}
+
+#stars2:after {
+  width: 2px;
+  height: 2px;
+  animation: animStar 100s linear infinite;
+}
+
+#stars3 {
+  width: 3px;
+  height: 3px;
+  animation: animStar 150s linear infinite;
+}
+
+#stars3:after {
+  width: 3px;
+  height: 3px;
+  animation: animStar 150s linear infinite;
+} */
+
+
+/* @keyframes animStar {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-2000px);
+  }
+} */
+
+
+
   

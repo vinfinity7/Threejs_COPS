@@ -1,11 +1,11 @@
 Model Information:
-* title:	Microphone GXL 066 Bafhcteks
-* source:	https://sketchfab.com/3d-models/microphone-gxl-066-bafhcteks-5172dbe9281a45f48cee8c15bdfa1831
-* author:	Gistold (https://sketchfab.com/gistold)
+* title:	Laptop - Windows Menu
+* source:	https://sketchfab.com/3d-models/laptop-windows-menu-c250cb47738b40ff8f4637e87efca8f1
+* author:	Cat studio (https://sketchfab.com/indrajithpe)
 
 Model License:
-* license type:	CC-BY-NC-SA-4.0 (http://creativecommons.org/licenses/by-nc-sa/4.0/)
-* requirements:	Author must be credited. No commercial use. Modified versions must have the same license.
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
 
 If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
-This work is based on "Microphone GXL 066 Bafhcteks" (https://sketchfab.com/3d-models/microphone-gxl-066-bafhcteks-5172dbe9281a45f48cee8c15bdfa1831) by Gistold (https://sketchfab.com/gistold) licensed under CC-BY-NC-SA-4.0 (http://creativecommons.org/licenses/by-nc-sa/4.0/)
+This work is based on "Laptop - Windows Menu" (https://sketchfab.com/3d-models/laptop-windows-menu-c250cb47738b40ff8f4637e87efca8f1) by Cat studio (https://sketchfab.com/indrajithpe) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

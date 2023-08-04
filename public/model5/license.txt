@@ -1,11 +1,11 @@
 Model Information:
-* title:	Stylized Hacked PC #SketchfabWeeklyChallenge
-* source:	https://sketchfab.com/3d-models/stylized-hacked-pc-sketchfabweeklychallenge-192ab9d4706f4ffaaf22f9a299289d75
-* author:	ottobite (https://sketchfab.com/ottobite)
+* title:	A.I. Brain under Maintenance
+* source:	https://sketchfab.com/3d-models/ai-brain-under-maintenance-f1560ef23f214bb4bbe311516335b5c7
+* author:	Miguelangelo Rosario (https://sketchfab.com/miguelangelo2k)
 
 Model License:
-* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
-* requirements:	Author must be credited. Commercial use is allowed.
+* license type:	CC-BY-SA-4.0 (http://creativecommons.org/licenses/by-sa/4.0/)
+* requirements:	Author must be credited. Modified versions must have the same license. Commercial use is allowed.
 
 If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
-This work is based on "Stylized Hacked PC #SketchfabWeeklyChallenge" (https://sketchfab.com/3d-models/stylized-hacked-pc-sketchfabweeklychallenge-192ab9d4706f4ffaaf22f9a299289d75) by ottobite (https://sketchfab.com/ottobite) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+This work is based on "A.I. Brain under Maintenance" (https://sketchfab.com/3d-models/ai-brain-under-maintenance-f1560ef23f214bb4bbe311516335b5c7) by Miguelangelo Rosario (https://sketchfab.com/miguelangelo2k) licensed under CC-BY-SA-4.0 (http://creativecommons.org/licenses/by-sa/4.0/)

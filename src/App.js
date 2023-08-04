@@ -16,7 +16,7 @@ class App extends Component {
       <div id="body">
         <h1 text-align="centre">
 
-<div background-color= "transparent" class="glitch" data-text="GLITCH">GLITCH</div>
+<div background-color= "transparent" class="glitch" data-text="GLITCH">COPS VERTICALS</div>
         
         </h1>
         <br/>

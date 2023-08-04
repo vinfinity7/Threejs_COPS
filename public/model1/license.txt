@@ -1,11 +1,11 @@
 Model Information:
-* title:	FREE Ai based ConceptCar 050 public domain (CC0)
-* source:	https://sketchfab.com/3d-models/free-ai-based-conceptcar-050-public-domain-cc0-3f7a98a53efe48068adddf0c0f3ddbae
-* author:	Unity Fan youtube channel (https://sketchfab.com/unityfan777)
+* title:	C++
+* source:	https://sketchfab.com/3d-models/c-1b277fc32bbc451fa6f40e298996ba91
+* author:	AnshiNoWara (https://sketchfab.com/AnshiNoWara)
 
 Model License:
 * license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
 * requirements:	Author must be credited. Commercial use is allowed.
 
 If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
-This work is based on "FREE Ai based ConceptCar 050 public domain (CC0)" (https://sketchfab.com/3d-models/free-ai-based-conceptcar-050-public-domain-cc0-3f7a98a53efe48068adddf0c0f3ddbae) by Unity Fan youtube channel (https://sketchfab.com/unityfan777) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+This work is based on "C++" (https://sketchfab.com/3d-models/c-1b277fc32bbc451fa6f40e298996ba91) by AnshiNoWara (https://sketchfab.com/AnshiNoWara) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

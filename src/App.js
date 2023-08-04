@@ -1,12 +1,13 @@
 import React, { Component } from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+
 import { Carousel } from "react-responsive-carousel";
 import ThreeScene from "./Components/ThreeScene";
 import SlideCard from "./Components/SlideCard"; // Import the SlideCard component
 import "./App.css";
 import '@fontsource/eczar' ;
-import "https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js" ;
+// import "https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js" ;
 
 
 
@@ -24,7 +25,7 @@ class App extends Component {
         </h1>
         <br/>
         <div className="container carousel-wrapper">
-          <Carousel autoPlay={true} showThumbs={false} infiniteLoop={true}>
+          <Carousel autoPlay={true} showThumbs={false} infiniteLoop={true}  >
             <div>
               <ThreeScene modelPath="model1/scene.gltf" camx={0} camy={5} camz={50}  />
               <SlideCard

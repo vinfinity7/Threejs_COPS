@@ -13,15 +13,15 @@ import "https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js" ;
 class App extends Component {
   render() {
     return (
+    <div id="bg">
+    <div id='stars'></div>
+<div id='stars2'></div>
+<div id='stars3'></div>    
       <div id="body">
         <h1 text-align="centre">
 <div background-color= "transparent" class="glitch" data-text="GLITCH">COPS</div>
         </h1>
         <br/>
-        <br/>
-        <br/>
-        <br/>
-        
         <div className="container carousel-wrapper">
           <Carousel autoPlay={true} showThumbs={false} infiniteLoop={true}>
             <div>
@@ -56,6 +56,7 @@ class App extends Component {
           </Carousel>
         </div>
       </div>
+        </div>
     );
   }
 }

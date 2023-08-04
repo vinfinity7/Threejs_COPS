@@ -18,13 +18,13 @@ class ThreeScene extends Component {
 
     const camera = new THREE.PerspectiveCamera(
       90,
-     (8* window.innerWidth) /(5* window.innerHeight),
+     (8* window.innerWidth) /(4* window.innerHeight),
       0.1,
       1000
     );
 
     const renderer = new THREE.WebGLRenderer({ alpha: true }); // Enable alpha for transparent background
-    renderer.setSize(window.innerWidth*0.8 , window.innerHeight*0.5 );
+    renderer.setSize(window.innerWidth*0.8 , window.innerHeight*0.4 );
     renderer.setClearColor(0x000000, 0); // Set clearColor with alpha value of 0
     this.threeContainer.appendChild(renderer.domElement);
 
@@ -51,13 +51,13 @@ class ThreeScene extends Component {
     const controls = new OrbitControls(camera, renderer.domElement);
     
     // to disable zoom
-controls.enableZoom = false;
+//controls.enableZoom = false;
 
 // to disable rotation
 // controls.enableRotate = false;
 
 // to disable pan
-controls.enablePan = false;
+//controls.enablePan = false;
 // controls.minPolarAngle = Math.PI/2;
 // controls.maxPolarAngle = Math.PI/2;
     // Set camera position

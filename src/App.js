@@ -18,6 +18,10 @@ class App extends Component {
 <div background-color= "transparent" class="glitch" data-text="GLITCH">COPS</div>
         </h1>
         <br/>
+        <br/>
+        <br/>
+        <br/>
+        
         <div className="container carousel-wrapper">
           <Carousel autoPlay={true} showThumbs={false} infiniteLoop={true}>
             <div>

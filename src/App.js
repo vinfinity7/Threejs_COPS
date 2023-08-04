@@ -15,13 +15,7 @@ class App extends Component {
     return (
       <div id="body">
         <h1 text-align="centre">
-<<<<<<< Updated upstream
 <div background-color= "transparent" class="glitch" data-text="GLITCH">COPS</div>
-=======
-
-<div background-color= "transparent" class="glitch" data-text="COPS">COPS</div>
-        
->>>>>>> Stashed changes
         </h1>
         <br/>
         <div className="container carousel-wrapper">

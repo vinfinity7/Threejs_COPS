@@ -63,7 +63,7 @@ class App extends Component {
       <br/>
       <br/>
       </div>
-      <br/>
+        <div id="block">
         <p id="content" style={{ fontFamily: 'Eczar, serif'}}>
         In this age of increasing automation, programming is not limited to only computer science and related fields. Every competent engineer needs to know how to program.
         <br/>
@@ -71,11 +71,13 @@ class App extends Component {
          This makes Club of Programmers one of the most important clubs in the institute.
 
 Club of Programmers (or better known as COPS) understands this responsibility and plays a crucial part in maintaining the coding culture in the institute. 
-Introductory workshops are held for freshers to introduce them to the various facets of programming. Regular competitions are held for the general student body to test and sharpen their programming skills. 
-        </p>
-      <br/>
-      <h1 id="hiya" style={{ fontFamily: 'Eczar, serif'}}>How to become a COP ?</h1>
-      <br/>
+Introductory workshops are held for freshers to introduce them to the various facets of programming. Regular competitions are held for the general student body to test and sharpen their programming skills.    
+    </p>
+      
+      <h1 id="hiya" style={{ fontFamily: 'Eczar, serif'}}>How to become a COP ?
+          <br/>
+          </h1>
+      
 
       <ul style={{ fontFamily: 'Eczar, serif'}}>
         <li  >Interest and consistent effort are the only pre-requisites :)</li>
@@ -91,6 +93,7 @@ Introductory workshops are held for freshers to introduce them to the various fa
 
         <li >Try your hand at our events</li>
       </ul>
+        </div>
         </div>
         </>
     );

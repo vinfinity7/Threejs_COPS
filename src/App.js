@@ -44,7 +44,7 @@ class App extends Component {
               <ThreeScene modelPath="react/scene.gltf" camx={0} camy={0} camz={4} />
               <SlideCard
                 title="Software Development Guild"
-                text="You talk as we code , The most creative peeps meet up to make bring ideas to life ."
+                text="You talk as we code , The most creative peeps meet up to bring ideas to reality ."
               />
             </div>
             <div>
